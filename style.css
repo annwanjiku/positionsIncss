@@ -1,0 +1,206 @@
+body{
+    font-family:"Trirong", serif;
+    font-size: 16px;
+}
+.nav-a button{
+    background-color: #00bb16;
+    width: 80px;
+    height: 50px;
+    border:1px solid #000;
+    border-radius: 6px;
+    font-family:"Trirong", serif;
+    font-size: 16px;
+
+}
+
+.nav-a{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+.nav-b button{
+    width: 100px;
+    height: 50px;
+    background-color: #ee0066;
+    border: 1px solid #000;
+    border-radius: 6px;
+    opacity: 0.8;
+    color: #000;
+    margin-right:5px;
+    font-family:"Trirong", serif;
+}
+
+#button-1:hover{
+    box-shadow: 2px 2px 10px 3px #000;
+    background-color: #ee0022;
+}
+
+#button-2:hover{
+    background-color: violet;
+    text-transform:uppercase;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#button-3:hover{
+    cursor: cell;
+}
+.anchor-tags{
+    margin-top: 20px;
+}
+a{
+    color: #000;
+}
+#anchor-1:hover{
+    text-decoration: none;
+    color: #ee0022;
+}
+#anchor-2:active{
+    font-weight: bold;
+    color: #0042ff;
+}
+#anchor-3:visited{
+    color: #eeaaff;
+}
+#anchor-3:active {
+    color: #2500cc;
+  }
+.nav-c{
+    display: inline-block;
+    width: 40%;
+    background-color: #ef2;
+    border:1px solid #000;
+    margin-top: 20px;
+    
+}
+.nav-c p{
+    text-align: center;
+    border-bottom:1px solid #000;
+}
+.nav-c p{
+    margin: 5px;
+}
+
+.nav-d{
+    margin-top:20px ;
+    background-color: #ef2;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    border:1px solid #000;
+}
+.nav-d p{
+    border-right:1px solid #000;
+    margin: 0%;
+    padding: 5px 5px;
+}
+.dropdown-div{
+    display: inline-flex;
+    margin-top: 30px;
+    position: relative;
+}
+
+.all-dropdowns{
+    border: 1px solid #000;
+    padding: 0px 20px 15px 20px;
+    background-color: #0042ff;
+    border-radius: 10px; 
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: max-content;
+    display: none;
+
+}
+
+.all-dropdowns:hover{
+    box-shadow: 2px 2px 10px 4px #000;
+}
+.all-dropdowns p{
+    margin: 0px;
+    padding: 0px;
+}
+.main-dropdown{
+    background-color: #ff00bb;
+}
+
+.table{
+    background-color: #ffffaa;
+    border:1px solid #000;
+    border-bottom: none;
+    width: 19%;
+    margin-top: 120px;
+   
+
+}
+td{
+    border-bottom: 1px solid #000;
+    width: 19%;
+}
+th{
+   text-align: center;
+   text-transform: uppercase;
+   border-bottom: 1px solid #000;
+}
+
+
+.div-image{
+    margin-top:50px ;
+    margin-bottom: 50px;
+}
+figcaption{
+    display: inline-block;
+    background-color:#000;
+    color: #fff;
+}
+.pos-fixed{
+    position:fixed;
+    top: 15%;
+    right: 0%;
+    background-color: #11ccff;
+}
+
+ .container-rel p{
+    position: relative;
+    background-color: #ee0022;
+    top: 60px;
+    /*relative on the other hand does not disturb other elements*/
+ }
+
+ .container-abs{
+   border:1px solid #000; 
+   background-color: #00bb16;
+   position: relative;
+   margin-top: 100px;
+    
+}
+.container-abs #one{ 
+    position: relative; 
+ 
+}
+.container-abs #pos-absolute{
+    position: absolute;
+    left: 30%;
+    background-color: #00bb16;
+    top: 10px;
+    /*This is relative to the container, but if it is relative to the entire page and you said top 10px, it would go all the way to the top just 10px from the page top*/
+    /*It is therefore important to understand where the absolute position is*/
+}
+.float-image{
+    margin-top: 100px;
+    position: relative;
+}
+.floated-image{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-right: 10px;
+}
+#text{
+    position: absolute;
+    display: inline-flex;
+    height: 500px;
+    align-items: end;
+}
