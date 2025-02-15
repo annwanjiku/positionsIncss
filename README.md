@@ -44,4 +44,6 @@ Navigation bars can be styled in different ways:
 - Created with `position: absolute;` inside a parent container.  
 - Hidden by default (`display: none;`), shown on `:hover` or with JavaScript.
 - `visibility: hidden;` – Hides the element but keeps its space reserved.  
-- Can include animations for smooth appearance.  
+- Can include animations for smooth appearance.
+
+## ****[Examples](https://annwanjiku.github.io/positionsIncss/)
