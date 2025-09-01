@@ -17,18 +17,18 @@ The `<a>` tag is used for different types of links:
 - **External Link:** `<a href="https://example.com" target="_blank" rel="noopener">Visit Site</a>`  
 
 ### **Styling `<a>` Tags**  
-- `color` – Defines the text color.  
-- `text-decoration` – Removes or modifies underlines.  
+- `color` - Defines the text color.  
+- `text-decoration` - Removes or modifies underlines.  
 - `hover`, `active`, `visited`, `focus` – Control appearance in different states.  
-- `cursor: pointer;` – Improves usability.  
+- `cursor: pointer;` - Improves usability.  
 
 ## **Nav Bars & Types**  
 Navigation bars can be styled in different ways:  
-- **Horizontal Navbar** – Uses `display: flex;` or `inline-block;`.  
-- **Vertical Navbar** – Uses `display: block;` for stacked links.  
-- **Fixed Navbar** – `position: fixed;` keeps it on the screen while scrolling.  
-- **Sticky Navbar** – `position: sticky;` remains visible when scrolling.  
-- **Dropdown Navbar** – Includes hover or click-triggered submenus.  
+- **Horizontal Navbar** - Uses `display: flex;` or `inline-block;`.  
+- **Vertical Navbar** - Uses `display: block;` for stacked links.  
+- **Fixed Navbar** - `position: fixed;` keeps it on the screen while scrolling.  
+- **Sticky Navbar** - `position: sticky;` remains visible when scrolling.  
+- **Dropdown Navbar** - Includes hover or click-triggered submenus.  
 
 ## **Buttons**  
 - Styled with `background-color`, `border`, `padding`, and `border-radius`.  
@@ -46,4 +46,4 @@ Navigation bars can be styled in different ways:
 - `visibility: hidden;` – Hides the element but keeps its space reserved.  
 - Can include animations for smooth appearance.
 
-## ****[Examples](https://annwanjiku.github.io/positions_in_css/)****
+# ****[Examples](https://annwanjiku.github.io/positions_in_css/)****
