@@ -1,11 +1,11 @@
 # CSS
 ## **Positions**  
 CSS provides different positioning methods:  
-- **`static`** – Default position in normal document flow.  
-- **`relative`** – Positioned relative to its original place.  
-- **`absolute`** – Positioned relative to the nearest positioned ancestor,or the document if no ancestor is provided.  
-- **`fixed`** – Stays in place even when scrolling.  
-- **`sticky`** – Switches between relative and fixed based on scroll position.  
+- **`static`** - Default position in normal document flow.  
+- **`relative`** - Positioned relative to its original place.  
+- **`absolute`** - Positioned relative to the nearest positioned ancestor, or the document if no ancestor is provided.  
+- **`fixed`** - Stays in place even when scrolling.  
+- **`sticky`** - Switches between relative and fixed based on scroll position.  
 
 ## **Types of `<a>` Tags**  
 The `<a>` tag is used for different types of links:  
