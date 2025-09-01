@@ -46,4 +46,4 @@ Navigation bars can be styled in different ways:
 - `visibility: hidden;` – Hides the element but keeps its space reserved.  
 - Can include animations for smooth appearance.
 
-## ****[Examples](https://annwanjiku.github.io/positionsIncss/)****
+## ****[Examples](https://annwanjiku.github.io/positions_in_css/)****
